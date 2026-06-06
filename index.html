@@ -1,62 +1,55 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>IDC2O - First Webpage</title>
-    <link rel="stylesheet href=style.css">
+    <link rel="stylesheet" href="styles.Css">
 </head>
-    
-<body>
 
+<body>
+  <div class="container"></div>
     <headder>
-       <h1>Honoka's website</h1>
+        <div id="banner" class="banner"></div>
+        <h1>Honoka's website</h1>
     </headder>
 
 
     <nav>
-       <ul>
-            
+        <ul>
+
             <li><a href="index.html">Home</a></li>
             <li><a href="photoediting.html">Photo Editing</a></li>
             <li><a href="graphicdesign.html">Graphic Design</a></li>
             <li><a href="videoediting.html">Video Editing</a></li>
-            
+
         </ul>
     </nav>
 
 
 
     <main>
-        
-    <h1 id="counter">Likes: 0</h1>
-    
-     <button onclick="addCount()">Like</button>
+      <h1>Welcome to my Grade 10 comm tech website</h1>
+      <p>You can see my every project I learned throughout this course such as working with layers, mastering selections, blending
+        images, adding effects, and building professional-looking compositions from scratch by photoshop, video editing by premiere pro. 
+        Those include my original logo design, movie poster, short movie, etc. </p>
 
-
+      <p id="counter">Likes: 0</p>
+      <button onclick="addCount()">Like</button>
     </main>
-    
- 
 
-  <script>
+    <script>
 
-  let count = 0;
+        let count = 0;
 
-  function addCount() {
-  count = count + 1 ;
-  document.getElementById("counter").innerText = count ;
+        function addCount() {
+            count = count + 1;
+            document.getElementById("counter").innerText = count;
 
-  } 
+        }
 
-  </script>
+    </script>
 
-
-  
-   
 
 </body>
-    
+
 </html>
-
-
-
-
